@@ -26,6 +26,7 @@ public class Finbonacci {
             n = Integer.parseInt(oBufferedReader.readLine());
             Calculate oCalculate = new Calculate();
             oCalculate.inputNumber(a, n);
+            oCalculate.displayNumber(a, n);
             
         }catch(Exception e){
             System.out.println(e.toString());
