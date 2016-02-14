@@ -32,4 +32,21 @@ public class Calculate {
             System.out.print(a[i] + " ");
         System.out.println();
     }
+    
+    
+    //dinh nghia ham Finbonacci
+    int Finbonacci(int x)
+    {
+        if(x<3)
+            return 1;
+        
+        return Finbonacci(x-1) + Finbonacci(x-2);
+    }
+    
+    public void displayFinbonacci(int[] a, int n)
+    {
+        for(int i=0; i<n; i++)
+            System.out.print(Finbonacci(a[i]) + " ");
+        System.out.println();
+    }
 }

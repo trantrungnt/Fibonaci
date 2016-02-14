@@ -27,7 +27,8 @@ public class Finbonacci {
             Calculate oCalculate = new Calculate();
             oCalculate.inputNumber(a, n);
             oCalculate.displayNumber(a, n);
-            
+            //goi phuong tinh hien thi day Finbonaci
+            oCalculate.displayFinbonacci(a, n);
         }catch(Exception e){
             System.out.println(e.toString());
         }
